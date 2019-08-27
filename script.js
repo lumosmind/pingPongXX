@@ -139,6 +139,7 @@ function updatePoints() {
 
 function sendBall() {
   ball.setPosition(400, 0);
+  ball.setVelocity(80, 300);
 }
 
 
