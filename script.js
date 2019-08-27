@@ -66,7 +66,7 @@ function onCreate() {
   ball = this.physics.add.image(400, 0, 'ball');
   // ball.setCollideWorldBounds();
   ball.setBounce(1);
-  ball.setGravity(0, 20);
+  ball.setGravity(0, -20);
   ball.setVelocityY(300);
   ball.setVelocityX(80);
 
