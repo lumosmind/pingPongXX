@@ -145,7 +145,7 @@ function sendBall() {
 
 function pcMove() {
   // deactiveate move if ball in other side of area
-  if (ball.x < 400) return;
+  if (ball.x < 400 || ball.body.velocity.x < 0) return;
   const x = ball.x;
   const y = ball.y;
 
